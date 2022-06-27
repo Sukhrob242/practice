@@ -1,5 +1,7 @@
-let points = 80 ;
-let result = points > 70 ? 'successfully' : 'Fail' ;
+let color1 = 'white' ;
+let color2 = 'black' ;
+let colorChange = color1 ;
+color1 = color2 ;
+color2 = colorChange
 
-
-console.log('Exam result: ', result);
+console.log(color1 , color2);
